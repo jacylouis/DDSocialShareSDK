@@ -1,13 +1,19 @@
 PODS:
-  - DDThirdShareLibrary (0.0.1):
+  - DDThirdShareLibrary/MISDK (0.0.3)
+  - DDThirdShareLibrary/TencentSDK (0.0.3)
+  - DDThirdShareLibrary/WeChatSDK (0.0.3)
+  - DDThirdShareLibrary/WeiboSDK (0.0.3):
     - WeiboSDK (~> 3.1.3)
   - WeiboSDK (3.1.3)
 
 DEPENDENCIES:
-  - DDThirdShareLibrary
+  - DDThirdShareLibrary/MISDK
+  - DDThirdShareLibrary/TencentSDK
+  - DDThirdShareLibrary/WeChatSDK
+  - DDThirdShareLibrary/WeiboSDK
 
 SPEC CHECKSUMS:
-  DDThirdShareLibrary: 74adef2f083ec78d873ff716ac69755241d370fd
+  DDThirdShareLibrary: 483d77ab691a269ba299e6c9f4bb68db2fbd6128
   WeiboSDK: acb067053668102cf07d01aa7604350162c2e466
 
 COCOAPODS: 0.39.0
