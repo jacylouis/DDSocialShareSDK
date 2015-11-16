@@ -4,17 +4,18 @@
 > 
 ### 示例代码
 
->图片分享实现DDShareSDKImageProtocol协议
+> 图片分享实现DDShareSDKImageProtocol协议
 >
-			>[[DDSocialShareSDKHandle sharedInstance] shareWithPlatform:DDSSPlatformSina shareScene:DDSSShareSceneSina shareType:DDSSShareTypeImage protocol:self completeHandle:^(DDSSPlatform type, DDSSShareScene shareScene, DDSSStateType state, NSError *error) {
-             >   
-            >}];
-			>
->连接分享实现DDShareSDKWebPageProtocol协议
-            >[[DDSocialShareSDKHandle sharedInstance] shareWithPlatform:DDSSPlatformSina shareScene:DDSSShareSceneSina shareType:DDSSShareTypeWebPage protocol:self completeHandle:^(DDSSPlatform type, DDSSShareScene shareScene, DDSSStateType state, NSError *error) {
-            >    
-            >}];
-			>
+			> [[DDSocialShareSDKHandle sharedInstance] shareWithPlatform:DDSSPlatformSina shareScene:DDSSShareSceneSina shareType:DDSSShareTypeImage protocol:self completeHandle:^(DDSSPlatform type, DDSSShareScene shareScene, DDSSStateType state, NSError *error) {
+             >    
+            > }];
+			> 
+> 连接分享实现DDShareSDKWebPageProtocol协议
+> 
+            > [[DDSocialShareSDKHandle sharedInstance] shareWithPlatform:DDSSPlatformSina shareScene:DDSSShareSceneSina shareType:DDSSShareTypeWebPage protocol:self completeHandle:^(DDSSPlatform type, DDSSShareScene shareScene, DDSSStateType state, NSError *error) {
+            >     
+            > }];
+			> 
 ### 一、配置工作
    > 
    > 修改info.plist，copy Demo中的 LSApplicationQueriesSchemes 、 URLTypes、 NSAppTransportSecurity确保原封不动的copy，其次将URLTypes中的URLSchemes改为自己申请的
@@ -44,7 +45,7 @@
 	   > 
        > return YES;
 	   > 
-   > }
+  > }
 
   > - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
 	  > 
