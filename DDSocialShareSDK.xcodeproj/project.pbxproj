@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		905AC6A51BF9D8650009A72D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC6A41BF9D8650009A72D /* main.m */; };
+		905AC6A81BF9D8650009A72D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC6A71BF9D8650009A72D /* AppDelegate.m */; };
+		905AC6AE1BF9D8650009A72D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905AC6AC1BF9D8650009A72D /* Main.storyboard */; };
+		905AC6B01BF9D8650009A72D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 905AC6AF1BF9D8650009A72D /* Assets.xcassets */; };
+		905AC6B31BF9D8650009A72D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905AC6B11BF9D8650009A72D /* LaunchScreen.storyboard */; };
+		905AC7151BF9DA7E0009A72D /* UIImage+zoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC6D21BF9DA7E0009A72D /* UIImage+zoom.m */; };
+		905AC7161BF9DA7E0009A72D /* UIButton+DDHitTestEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC6D71BF9DA7E0009A72D /* UIButton+DDHitTestEdgeInsets.m */; };
+		905AC7171BF9DA7E0009A72D /* UIView+DDAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC6D91BF9DA7E0009A72D /* UIView+DDAction.m */; };
+		905AC7181BF9DA7E0009A72D /* UIView+DDFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC6DB1BF9DA7E0009A72D /* UIView+DDFrame.m */; };
+		905AC7191BF9DA7E0009A72D /* DDMIHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC6DD1BF9DA7E0009A72D /* DDMIHandle.m */; };
+		905AC71A1BF9DA7E0009A72D /* DDMIDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC6E01BF9DA7E0009A72D /* DDMIDownLoader.m */; };
+		905AC71B1BF9DA7E0009A72D /* DDMIRequestHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC6E21BF9DA7E0009A72D /* DDMIRequestHandle.m */; };
+		905AC71C1BF9DA7E0009A72D /* DDMILocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 905AC6E41BF9DA7E0009A72D /* DDMILocalizable.strings */; };
+		905AC71D1BF9DA7E0009A72D /* DDMIImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 905AC6E61BF9DA7E0009A72D /* DDMIImage.xcassets */; };
+		905AC71E1BF9DA7E0009A72D /* DDMIAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC6ED1BF9DA7E0009A72D /* DDMIAuthViewController.m */; };
+		905AC71F1BF9DA7E0009A72D /* DDMIAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905AC6EE1BF9DA7E0009A72D /* DDMIAuthViewController.xib */; };
+		905AC7201BF9DA7E0009A72D /* DDMIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC6F01BF9DA7E0009A72D /* DDMIBaseViewController.m */; };
+		905AC7211BF9DA7E0009A72D /* DDMILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC6F21BF9DA7E0009A72D /* DDMILoginViewController.m */; };
+		905AC7221BF9DA7E0009A72D /* DDMILoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905AC6F31BF9DA7E0009A72D /* DDMILoginViewController.xib */; };
+		905AC7231BF9DA7E0009A72D /* DDMIVerifyLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC6F51BF9DA7E0009A72D /* DDMIVerifyLoginViewController.m */; };
+		905AC7241BF9DA7E0009A72D /* DDMIVerifyLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905AC6F61BF9DA7E0009A72D /* DDMIVerifyLoginViewController.xib */; };
+		905AC7251BF9DA7E0009A72D /* DDMICircleIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC6F91BF9DA7E0009A72D /* DDMICircleIndicator.m */; };
+		905AC7261BF9DA7E0009A72D /* DDSinaHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC6FC1BF9DA7E0009A72D /* DDSinaHandle.m */; };
+		905AC7271BF9DA7E0009A72D /* DDSinaRequestHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC6FF1BF9DA7E0009A72D /* DDSinaRequestHandle.m */; };
+		905AC7281BF9DA7E0009A72D /* DDTencentHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC7021BF9DA7E0009A72D /* DDTencentHandle.m */; };
+		905AC7291BF9DA7E0009A72D /* DDWeChatHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC7051BF9DA7E0009A72D /* DDWeChatHandle.m */; };
+		905AC72A1BF9DA7E0009A72D /* DDWeChatRequestHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC7081BF9DA7E0009A72D /* DDWeChatRequestHandle.m */; };
+		905AC72B1BF9DA7E0009A72D /* DDSocialShareSDKHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC70D1BF9DA7E0009A72D /* DDSocialShareSDKHandle.m */; };
+		905AC72C1BF9DA7E0009A72D /* DDAuthItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC7101BF9DA7E0009A72D /* DDAuthItem.m */; };
+		905AC72D1BF9DA7E0009A72D /* DDLinkupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC7121BF9DA7E0009A72D /* DDLinkupItem.m */; };
+		905AC72E1BF9DA7E0009A72D /* DDUserInfoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC7141BF9DA7E0009A72D /* DDUserInfoItem.m */; };
+		905AC7321BF9DAE30009A72D /* MDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC7301BF9DAE30009A72D /* MDLoginViewController.m */; };
+		905AC7331BF9DAE30009A72D /* MDLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905AC7311BF9DAE30009A72D /* MDLoginViewController.xib */; };
+		905AC7351BF9DCA60009A72D /* login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 905AC7341BF9DCA60009A72D /* login@2x.png */; };
+		9E86C1029C02B9B3752C23F2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A39E3482C6D1511BCB271C3 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E6E81823F774EAEB59B6F99 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		718C4AF1E34C485CFB06F2E2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7A39E3482C6D1511BCB271C3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		905AC6A01BF9D8650009A72D /* DDSocialShareSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDSocialShareSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		905AC6A41BF9D8650009A72D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		905AC6A61BF9D8650009A72D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		905AC6A71BF9D8650009A72D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		905AC6AD1BF9D8650009A72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		905AC6AF1BF9D8650009A72D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		905AC6B21BF9D8650009A72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		905AC6B41BF9D8650009A72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905AC6D11BF9DA7E0009A72D /* UIImage+zoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+zoom.h"; sourceTree = "<group>"; };
+		905AC6D21BF9DA7E0009A72D /* UIImage+zoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+zoom.m"; sourceTree = "<group>"; };
+		905AC6D61BF9DA7E0009A72D /* UIButton+DDHitTestEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DDHitTestEdgeInsets.h"; sourceTree = "<group>"; };
+		905AC6D71BF9DA7E0009A72D /* UIButton+DDHitTestEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DDHitTestEdgeInsets.m"; sourceTree = "<group>"; };
+		905AC6D81BF9DA7E0009A72D /* UIView+DDAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DDAction.h"; sourceTree = "<group>"; };
+		905AC6D91BF9DA7E0009A72D /* UIView+DDAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DDAction.m"; sourceTree = "<group>"; };
+		905AC6DA1BF9DA7E0009A72D /* UIView+DDFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DDFrame.h"; sourceTree = "<group>"; };
+		905AC6DB1BF9DA7E0009A72D /* UIView+DDFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DDFrame.m"; sourceTree = "<group>"; };
+		905AC6DC1BF9DA7E0009A72D /* DDMIHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIHandle.h; sourceTree = "<group>"; };
+		905AC6DD1BF9DA7E0009A72D /* DDMIHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIHandle.m; sourceTree = "<group>"; };
+		905AC6DF1BF9DA7E0009A72D /* DDMIDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIDownLoader.h; sourceTree = "<group>"; };
+		905AC6E01BF9DA7E0009A72D /* DDMIDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIDownLoader.m; sourceTree = "<group>"; };
+		905AC6E11BF9DA7E0009A72D /* DDMIRequestHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIRequestHandle.h; sourceTree = "<group>"; };
+		905AC6E21BF9DA7E0009A72D /* DDMIRequestHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIRequestHandle.m; sourceTree = "<group>"; };
+		905AC6E51BF9DA7E0009A72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/DDMILocalizable.strings; sourceTree = "<group>"; };
+		905AC6E61BF9DA7E0009A72D /* DDMIImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DDMIImage.xcassets; sourceTree = "<group>"; };
+		905AC6E71BF9DA7E0009A72D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DDMILocalizable.strings; sourceTree = "<group>"; };
+		905AC6E81BF9DA7E0009A72D /* zh-Hans-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-HK"; path = "zh-Hans-HK.lproj/DDMILocalizable.strings"; sourceTree = "<group>"; };
+		905AC6E91BF9DA7E0009A72D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DDMILocalizable.strings"; sourceTree = "<group>"; };
+		905AC6EA1BF9DA7E0009A72D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/DDMILocalizable.strings"; sourceTree = "<group>"; };
+		905AC6EC1BF9DA7E0009A72D /* DDMIAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIAuthViewController.h; sourceTree = "<group>"; };
+		905AC6ED1BF9DA7E0009A72D /* DDMIAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIAuthViewController.m; sourceTree = "<group>"; };
+		905AC6EE1BF9DA7E0009A72D /* DDMIAuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMIAuthViewController.xib; sourceTree = "<group>"; };
+		905AC6EF1BF9DA7E0009A72D /* DDMIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIBaseViewController.h; sourceTree = "<group>"; };
+		905AC6F01BF9DA7E0009A72D /* DDMIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIBaseViewController.m; sourceTree = "<group>"; };
+		905AC6F11BF9DA7E0009A72D /* DDMILoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMILoginViewController.h; sourceTree = "<group>"; };
+		905AC6F21BF9DA7E0009A72D /* DDMILoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMILoginViewController.m; sourceTree = "<group>"; };
+		905AC6F31BF9DA7E0009A72D /* DDMILoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMILoginViewController.xib; sourceTree = "<group>"; };
+		905AC6F41BF9DA7E0009A72D /* DDMIVerifyLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIVerifyLoginViewController.h; sourceTree = "<group>"; };
+		905AC6F51BF9DA7E0009A72D /* DDMIVerifyLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIVerifyLoginViewController.m; sourceTree = "<group>"; };
+		905AC6F61BF9DA7E0009A72D /* DDMIVerifyLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMIVerifyLoginViewController.xib; sourceTree = "<group>"; };
+		905AC6F81BF9DA7E0009A72D /* DDMICircleIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMICircleIndicator.h; sourceTree = "<group>"; };
+		905AC6F91BF9DA7E0009A72D /* DDMICircleIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMICircleIndicator.m; sourceTree = "<group>"; };
+		905AC6FB1BF9DA7E0009A72D /* DDSinaHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSinaHandle.h; sourceTree = "<group>"; };
+		905AC6FC1BF9DA7E0009A72D /* DDSinaHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSinaHandle.m; sourceTree = "<group>"; };
+		905AC6FE1BF9DA7E0009A72D /* DDSinaRequestHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSinaRequestHandle.h; sourceTree = "<group>"; };
+		905AC6FF1BF9DA7E0009A72D /* DDSinaRequestHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSinaRequestHandle.m; sourceTree = "<group>"; };
+		905AC7011BF9DA7E0009A72D /* DDTencentHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTencentHandle.h; sourceTree = "<group>"; };
+		905AC7021BF9DA7E0009A72D /* DDTencentHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTencentHandle.m; sourceTree = "<group>"; };
+		905AC7041BF9DA7E0009A72D /* DDWeChatHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDWeChatHandle.h; sourceTree = "<group>"; };
+		905AC7051BF9DA7E0009A72D /* DDWeChatHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDWeChatHandle.m; sourceTree = "<group>"; };
+		905AC7071BF9DA7E0009A72D /* DDWeChatRequestHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDWeChatRequestHandle.h; sourceTree = "<group>"; };
+		905AC7081BF9DA7E0009A72D /* DDWeChatRequestHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDWeChatRequestHandle.m; sourceTree = "<group>"; };
+		905AC7091BF9DA7E0009A72D /* DDShareSDKContentProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDShareSDKContentProtocol.h; sourceTree = "<group>"; };
+		905AC70A1BF9DA7E0009A72D /* DDShareSDKEventHandlerDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDShareSDKEventHandlerDef.h; sourceTree = "<group>"; };
+		905AC70B1BF9DA7E0009A72D /* DDShareSDKTypeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDShareSDKTypeDef.h; sourceTree = "<group>"; };
+		905AC70C1BF9DA7E0009A72D /* DDSocialShareSDKHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSocialShareSDKHandle.h; sourceTree = "<group>"; };
+		905AC70D1BF9DA7E0009A72D /* DDSocialShareSDKHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSocialShareSDKHandle.m; sourceTree = "<group>"; };
+		905AC70F1BF9DA7E0009A72D /* DDAuthItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAuthItem.h; sourceTree = "<group>"; };
+		905AC7101BF9DA7E0009A72D /* DDAuthItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAuthItem.m; sourceTree = "<group>"; };
+		905AC7111BF9DA7E0009A72D /* DDLinkupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLinkupItem.h; sourceTree = "<group>"; };
+		905AC7121BF9DA7E0009A72D /* DDLinkupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLinkupItem.m; sourceTree = "<group>"; };
+		905AC7131BF9DA7E0009A72D /* DDUserInfoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDUserInfoItem.h; sourceTree = "<group>"; };
+		905AC7141BF9DA7E0009A72D /* DDUserInfoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDUserInfoItem.m; sourceTree = "<group>"; };
+		905AC72F1BF9DAE30009A72D /* MDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDLoginViewController.h; sourceTree = "<group>"; };
+		905AC7301BF9DAE30009A72D /* MDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDLoginViewController.m; sourceTree = "<group>"; };
+		905AC7311BF9DAE30009A72D /* MDLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDLoginViewController.xib; sourceTree = "<group>"; };
+		905AC7341BF9DCA60009A72D /* login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		905AC69D1BF9D8650009A72D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E86C1029C02B9B3752C23F2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		905AC6971BF9D8650009A72D = {
+			isa = PBXGroup;
+			children = (
+				905AC6CF1BF9DA7E0009A72D /* SocialShareSDK */,
+				905AC6A21BF9D8650009A72D /* DDSocialShareSDK */,
+				905AC6A11BF9D8650009A72D /* Products */,
+				BB6217DF0E32450665DF89C4 /* Pods */,
+				AA236DF95082DF2C90E7A296 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		905AC6A11BF9D8650009A72D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				905AC6A01BF9D8650009A72D /* DDSocialShareSDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		905AC6A21BF9D8650009A72D /* DDSocialShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				905AC6A61BF9D8650009A72D /* AppDelegate.h */,
+				905AC6A71BF9D8650009A72D /* AppDelegate.m */,
+				905AC7341BF9DCA60009A72D /* login@2x.png */,
+				905AC72F1BF9DAE30009A72D /* MDLoginViewController.h */,
+				905AC7301BF9DAE30009A72D /* MDLoginViewController.m */,
+				905AC7311BF9DAE30009A72D /* MDLoginViewController.xib */,
+				905AC6AC1BF9D8650009A72D /* Main.storyboard */,
+				905AC6AF1BF9D8650009A72D /* Assets.xcassets */,
+				905AC6B11BF9D8650009A72D /* LaunchScreen.storyboard */,
+				905AC6B41BF9D8650009A72D /* Info.plist */,
+				905AC6A31BF9D8650009A72D /* Supporting Files */,
+			);
+			path = DDSocialShareSDK;
+			sourceTree = "<group>";
+		};
+		905AC6A31BF9D8650009A72D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				905AC6A41BF9D8650009A72D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		905AC6CF1BF9DA7E0009A72D /* SocialShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				905AC6D01BF9DA7E0009A72D /* Categroy */,
+				905AC6D31BF9DA7E0009A72D /* DDSDKHandle */,
+				905AC7091BF9DA7E0009A72D /* DDShareSDKContentProtocol.h */,
+				905AC70A1BF9DA7E0009A72D /* DDShareSDKEventHandlerDef.h */,
+				905AC70B1BF9DA7E0009A72D /* DDShareSDKTypeDef.h */,
+				905AC70C1BF9DA7E0009A72D /* DDSocialShareSDKHandle.h */,
+				905AC70D1BF9DA7E0009A72D /* DDSocialShareSDKHandle.m */,
+				905AC70E1BF9DA7E0009A72D /* Model */,
+			);
+			path = SocialShareSDK;
+			sourceTree = "<group>";
+		};
+		905AC6D01BF9DA7E0009A72D /* Categroy */ = {
+			isa = PBXGroup;
+			children = (
+				905AC6D11BF9DA7E0009A72D /* UIImage+zoom.h */,
+				905AC6D21BF9DA7E0009A72D /* UIImage+zoom.m */,
+			);
+			path = Categroy;
+			sourceTree = "<group>";
+		};
+		905AC6D31BF9DA7E0009A72D /* DDSDKHandle */ = {
+			isa = PBXGroup;
+			children = (
+				905AC6D41BF9DA7E0009A72D /* MIHandle */,
+				905AC6FA1BF9DA7E0009A72D /* SinaHandle */,
+				905AC7001BF9DA7E0009A72D /* TencentHandle */,
+				905AC7031BF9DA7E0009A72D /* WeChatHandle */,
+			);
+			path = DDSDKHandle;
+			sourceTree = "<group>";
+		};
+		905AC6D41BF9DA7E0009A72D /* MIHandle */ = {
+			isa = PBXGroup;
+			children = (
+				905AC6D51BF9DA7E0009A72D /* Category */,
+				905AC6DC1BF9DA7E0009A72D /* DDMIHandle.h */,
+				905AC6DD1BF9DA7E0009A72D /* DDMIHandle.m */,
+				905AC6DE1BF9DA7E0009A72D /* Request */,
+				905AC6E31BF9DA7E0009A72D /* Resource */,
+				905AC6EB1BF9DA7E0009A72D /* ViewControllers */,
+				905AC6F71BF9DA7E0009A72D /* Views */,
+			);
+			path = MIHandle;
+			sourceTree = "<group>";
+		};
+		905AC6D51BF9DA7E0009A72D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				905AC6D61BF9DA7E0009A72D /* UIButton+DDHitTestEdgeInsets.h */,
+				905AC6D71BF9DA7E0009A72D /* UIButton+DDHitTestEdgeInsets.m */,
+				905AC6D81BF9DA7E0009A72D /* UIView+DDAction.h */,
+				905AC6D91BF9DA7E0009A72D /* UIView+DDAction.m */,
+				905AC6DA1BF9DA7E0009A72D /* UIView+DDFrame.h */,
+				905AC6DB1BF9DA7E0009A72D /* UIView+DDFrame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		905AC6DE1BF9DA7E0009A72D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				905AC6DF1BF9DA7E0009A72D /* DDMIDownLoader.h */,
+				905AC6E01BF9DA7E0009A72D /* DDMIDownLoader.m */,
+				905AC6E11BF9DA7E0009A72D /* DDMIRequestHandle.h */,
+				905AC6E21BF9DA7E0009A72D /* DDMIRequestHandle.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		905AC6E31BF9DA7E0009A72D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				905AC6E41BF9DA7E0009A72D /* DDMILocalizable.strings */,
+				905AC6E61BF9DA7E0009A72D /* DDMIImage.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		905AC6EB1BF9DA7E0009A72D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				905AC6EC1BF9DA7E0009A72D /* DDMIAuthViewController.h */,
+				905AC6ED1BF9DA7E0009A72D /* DDMIAuthViewController.m */,
+				905AC6EE1BF9DA7E0009A72D /* DDMIAuthViewController.xib */,
+				905AC6EF1BF9DA7E0009A72D /* DDMIBaseViewController.h */,
+				905AC6F01BF9DA7E0009A72D /* DDMIBaseViewController.m */,
+				905AC6F11BF9DA7E0009A72D /* DDMILoginViewController.h */,
+				905AC6F21BF9DA7E0009A72D /* DDMILoginViewController.m */,
+				905AC6F31BF9DA7E0009A72D /* DDMILoginViewController.xib */,
+				905AC6F41BF9DA7E0009A72D /* DDMIVerifyLoginViewController.h */,
+				905AC6F51BF9DA7E0009A72D /* DDMIVerifyLoginViewController.m */,
+				905AC6F61BF9DA7E0009A72D /* DDMIVerifyLoginViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		905AC6F71BF9DA7E0009A72D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				905AC6F81BF9DA7E0009A72D /* DDMICircleIndicator.h */,
+				905AC6F91BF9DA7E0009A72D /* DDMICircleIndicator.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		905AC6FA1BF9DA7E0009A72D /* SinaHandle */ = {
+			isa = PBXGroup;
+			children = (
+				905AC6FB1BF9DA7E0009A72D /* DDSinaHandle.h */,
+				905AC6FC1BF9DA7E0009A72D /* DDSinaHandle.m */,
+				905AC6FD1BF9DA7E0009A72D /* Request */,
+			);
+			path = SinaHandle;
+			sourceTree = "<group>";
+		};
+		905AC6FD1BF9DA7E0009A72D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				905AC6FE1BF9DA7E0009A72D /* DDSinaRequestHandle.h */,
+				905AC6FF1BF9DA7E0009A72D /* DDSinaRequestHandle.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		905AC7001BF9DA7E0009A72D /* TencentHandle */ = {
+			isa = PBXGroup;
+			children = (
+				905AC7011BF9DA7E0009A72D /* DDTencentHandle.h */,
+				905AC7021BF9DA7E0009A72D /* DDTencentHandle.m */,
+			);
+			path = TencentHandle;
+			sourceTree = "<group>";
+		};
+		905AC7031BF9DA7E0009A72D /* WeChatHandle */ = {
+			isa = PBXGroup;
+			children = (
+				905AC7041BF9DA7E0009A72D /* DDWeChatHandle.h */,
+				905AC7051BF9DA7E0009A72D /* DDWeChatHandle.m */,
+				905AC7061BF9DA7E0009A72D /* Request */,
+			);
+			path = WeChatHandle;
+			sourceTree = "<group>";
+		};
+		905AC7061BF9DA7E0009A72D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				905AC7071BF9DA7E0009A72D /* DDWeChatRequestHandle.h */,
+				905AC7081BF9DA7E0009A72D /* DDWeChatRequestHandle.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		905AC70E1BF9DA7E0009A72D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				905AC70F1BF9DA7E0009A72D /* DDAuthItem.h */,
+				905AC7101BF9DA7E0009A72D /* DDAuthItem.m */,
+				905AC7111BF9DA7E0009A72D /* DDLinkupItem.h */,
+				905AC7121BF9DA7E0009A72D /* DDLinkupItem.m */,
+				905AC7131BF9DA7E0009A72D /* DDUserInfoItem.h */,
+				905AC7141BF9DA7E0009A72D /* DDUserInfoItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA236DF95082DF2C90E7A296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A39E3482C6D1511BCB271C3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB6217DF0E32450665DF89C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E6E81823F774EAEB59B6F99 /* Pods.debug.xcconfig */,
+				718C4AF1E34C485CFB06F2E2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		905AC69F1BF9D8650009A72D /* DDSocialShareSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905AC6B71BF9D8650009A72D /* Build configuration list for PBXNativeTarget "DDSocialShareSDK" */;
+			buildPhases = (
+				DEBD7AD9233AB3A4A29D76B5 /* Check Pods Manifest.lock */,
+				905AC69C1BF9D8650009A72D /* Sources */,
+				905AC69D1BF9D8650009A72D /* Frameworks */,
+				905AC69E1BF9D8650009A72D /* Resources */,
+				170E3D0940606CBB7FE50104 /* Embed Pods Frameworks */,
+				E9C9965879B89098007E943F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDSocialShareSDK;
+			productName = DDSocialShareSDK;
+			productReference = 905AC6A01BF9D8650009A72D /* DDSocialShareSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		905AC6981BF9D8650009A72D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = LiLingang;
+				TargetAttributes = {
+					905AC69F1BF9D8650009A72D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 905AC69B1BF9D8650009A72D /* Build configuration list for PBXProject "DDSocialShareSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans-HK",
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 905AC6971BF9D8650009A72D;
+			productRefGroup = 905AC6A11BF9D8650009A72D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				905AC69F1BF9D8650009A72D /* DDSocialShareSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		905AC69E1BF9D8650009A72D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905AC7221BF9DA7E0009A72D /* DDMILoginViewController.xib in Resources */,
+				905AC71F1BF9DA7E0009A72D /* DDMIAuthViewController.xib in Resources */,
+				905AC6B31BF9D8650009A72D /* LaunchScreen.storyboard in Resources */,
+				905AC6B01BF9D8650009A72D /* Assets.xcassets in Resources */,
+				905AC6AE1BF9D8650009A72D /* Main.storyboard in Resources */,
+				905AC71C1BF9DA7E0009A72D /* DDMILocalizable.strings in Resources */,
+				905AC7351BF9DCA60009A72D /* login@2x.png in Resources */,
+				905AC71D1BF9DA7E0009A72D /* DDMIImage.xcassets in Resources */,
+				905AC7331BF9DAE30009A72D /* MDLoginViewController.xib in Resources */,
+				905AC7241BF9DA7E0009A72D /* DDMIVerifyLoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		170E3D0940606CBB7FE50104 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEBD7AD9233AB3A4A29D76B5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9C9965879B89098007E943F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		905AC69C1BF9D8650009A72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905AC7251BF9DA7E0009A72D /* DDMICircleIndicator.m in Sources */,
+				905AC7171BF9DA7E0009A72D /* UIView+DDAction.m in Sources */,
+				905AC7191BF9DA7E0009A72D /* DDMIHandle.m in Sources */,
+				905AC7321BF9DAE30009A72D /* MDLoginViewController.m in Sources */,
+				905AC72C1BF9DA7E0009A72D /* DDAuthItem.m in Sources */,
+				905AC7201BF9DA7E0009A72D /* DDMIBaseViewController.m in Sources */,
+				905AC7211BF9DA7E0009A72D /* DDMILoginViewController.m in Sources */,
+				905AC71B1BF9DA7E0009A72D /* DDMIRequestHandle.m in Sources */,
+				905AC6A81BF9D8650009A72D /* AppDelegate.m in Sources */,
+				905AC7261BF9DA7E0009A72D /* DDSinaHandle.m in Sources */,
+				905AC7271BF9DA7E0009A72D /* DDSinaRequestHandle.m in Sources */,
+				905AC7291BF9DA7E0009A72D /* DDWeChatHandle.m in Sources */,
+				905AC7231BF9DA7E0009A72D /* DDMIVerifyLoginViewController.m in Sources */,
+				905AC72E1BF9DA7E0009A72D /* DDUserInfoItem.m in Sources */,
+				905AC72B1BF9DA7E0009A72D /* DDSocialShareSDKHandle.m in Sources */,
+				905AC7151BF9DA7E0009A72D /* UIImage+zoom.m in Sources */,
+				905AC7161BF9DA7E0009A72D /* UIButton+DDHitTestEdgeInsets.m in Sources */,
+				905AC72D1BF9DA7E0009A72D /* DDLinkupItem.m in Sources */,
+				905AC7281BF9DA7E0009A72D /* DDTencentHandle.m in Sources */,
+				905AC71E1BF9DA7E0009A72D /* DDMIAuthViewController.m in Sources */,
+				905AC6A51BF9D8650009A72D /* main.m in Sources */,
+				905AC7181BF9DA7E0009A72D /* UIView+DDFrame.m in Sources */,
+				905AC71A1BF9DA7E0009A72D /* DDMIDownLoader.m in Sources */,
+				905AC72A1BF9DA7E0009A72D /* DDWeChatRequestHandle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		905AC6AC1BF9D8650009A72D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				905AC6AD1BF9D8650009A72D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		905AC6B11BF9D8650009A72D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				905AC6B21BF9D8650009A72D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		905AC6E41BF9DA7E0009A72D /* DDMILocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				905AC6E51BF9DA7E0009A72D /* Base */,
+				905AC6E71BF9DA7E0009A72D /* en */,
+				905AC6E81BF9DA7E0009A72D /* zh-Hans-HK */,
+				905AC6E91BF9DA7E0009A72D /* zh-Hans */,
+				905AC6EA1BF9DA7E0009A72D /* zh-Hant */,
+			);
+			name = DDMILocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		905AC6B51BF9D8650009A72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		905AC6B61BF9D8650009A72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		905AC6B81BF9D8650009A72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E6E81823F774EAEB59B6F99 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DDSocialShareSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HM.DDSocialShareSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		905AC6B91BF9D8650009A72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 718C4AF1E34C485CFB06F2E2 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DDSocialShareSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HM.DDSocialShareSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		905AC69B1BF9D8650009A72D /* Build configuration list for PBXProject "DDSocialShareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905AC6B51BF9D8650009A72D /* Debug */,
+				905AC6B61BF9D8650009A72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905AC6B71BF9D8650009A72D /* Build configuration list for PBXNativeTarget "DDSocialShareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905AC6B81BF9D8650009A72D /* Debug */,
+				905AC6B91BF9D8650009A72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 905AC6981BF9D8650009A72D /* Project object */;
+}
